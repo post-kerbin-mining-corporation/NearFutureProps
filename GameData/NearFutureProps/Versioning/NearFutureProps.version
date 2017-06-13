@@ -1,0 +1,18 @@
+{
+    "NAME":"NearFutureProps",
+    "URL":"https://raw.githubusercontent.com/ChrisAdderley/NearFutureProps/master/GameData/NearFutureProps/Versioning/NearFutureProps.version",
+    "DOWNLOAD":"http://forum.kerbalspaceprogram.com/index.php?/topic/155465-122-near-future-technologies",
+    "VERSION":
+    {
+        "MAJOR":0,
+        "MINOR":1,
+        "PATCH":0,
+        "BUILD":0
+    },
+    "KSP_VERSION":
+    {
+        "MAJOR":1,
+        "MINOR":3,
+        "PATCH":0
+    }
+}
