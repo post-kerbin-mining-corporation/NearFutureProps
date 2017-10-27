@@ -1,10 +1,10 @@
 # Near Future Props 0.2.0
-This is an IVA props set for Kerbal Space Program, useful for building detailed internal spaces. It has all sorts of fun parts, some inspired by real space gadgets, some by general science, and some that are just fun. 
+This is an IVA props set for Kerbal Space Program, useful for building detailed internal spaces. It has all sorts of fun parts, some inspired by real space gadgets, some by general science, and some that are just fun.
 
 ## Recent Changes
 
-**0.2.0**
-* Complete restructure of package
+**0.2.1**
+* New props
 
 ## Prop List
 The following props are in this package
@@ -36,7 +36,7 @@ The following props are in this package
 * **NF_HAB_Blackboard_Mission**: A blackboard with a mission diagram on it
 * **NF_HAB_Blackboard_Math**: A blackboard with some math on it
 * **NF_HAB_Whiteboard**: A whiteboard
-* **NF_HAB_Corkboard**: A whiteboard
+* **NF_HAB_Corkboard**: A corkboard
 
 ### Cargo
 * **NF_CRGO_Net_Short**: A cargo net
