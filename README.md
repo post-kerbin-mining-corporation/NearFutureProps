@@ -1,6 +1,10 @@
 # Near Future Props 0.2.0
-IVA Props set for Kerbal Space Program
+This is an IVA props set for Kerbal Space Program, useful for building detailed internal spaces. It has all sorts of fun parts, some inspired by real space gadgets, some by general science, and some that are just fun. 
+
 ## Recent Changes
+
+**0.2.0**
+* Complete restructure of package
 
 ## Prop List
 The following props are in this package
@@ -77,8 +81,7 @@ The following props are in this package
 * **NF_FOOD_CoffeePot_Espresso**: A stovetop espresso machine
 * **NF_FOOD_CoffeePot_FrenchPress**: A french press
 * **NF_FOOD_CoffeeBag**: A bag of Kicking Horse coffee
-* **NF_FOOD_CoffeeBag2**: A bag of Kicking Horse coffee
-
+* **NF_FOOD_CoffeeBag2**: A bag of Kicking Horse coffee\
 
 ### Rails and ladders
 * **NF_RAIL_Large_Black**: A black handhold rail
@@ -100,10 +103,7 @@ The following props are in this package
 * **NF_SCRN_Wide_CommandPrompt2**: A screen showing an easter egg
 * **NF_SCRN_Wide_IDE**: An intelliJ IDE
 * **NF_SCRN_Wide_Plots**: A bunch of matlab plots
-* **NF_SCRN_Wide_Botany1**:
-* **NF_SCRN_Wide_Botany2**: A screen showing an easter egg
-* **NF_SCRN_Wide_Aquaculture1**:
-* **NF_SCRN_Wide_Aquaculture2**:
+* **NF_SCRN_Wide_Botany1**: A screen showing ongoing Botany (TM)
 
 ### Computers
 * **NF_COMP_Laptop**: A space-certified laptop
@@ -172,3 +172,7 @@ The following props are in this package
 * **NF_RPM_CNSL_DigitalScreen_Altitude**:
 * **NF_RPM_CNSL_DigitalScreen_TimeOrbit**:
 * **NF_RPM_CNSL_DigitalScreen_Velocity**:
+
+## Licensing
+
+The contents of this repository are distributed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (http://creativecommons.org/licenses/by-nc-sa/4.0/legalcode). You are free to share and adapt the materials only for non-commercial purposes and when providing appropriate attribution. Any derivatives must be distributed under the same license.

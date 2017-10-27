@@ -1,3 +1,4 @@
 0.2.0
 -----
-- First standalone release
+- First properly versioned release
+- Complete restructure and rework
