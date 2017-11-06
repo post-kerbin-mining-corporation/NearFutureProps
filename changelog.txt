@@ -1,3 +1,10 @@
+0.2.1
+-----
+- Fixed export layer of rack props
+- Adjusted some MFD textures
+- Adjusted a few broken pivots on some props
+- Some props now have animations (Lights: Prop_Light_On, Racks: PropAnimate)
+
 0.2.0
 -----
 - First properly versioned release
