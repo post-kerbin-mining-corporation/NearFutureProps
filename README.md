@@ -4,7 +4,16 @@ This is an IVA props set for Kerbal Space Program, useful for building detailed 
 ## Recent Changes
 
 **0.2.1**
-* New props
+* Fixed export layer of rack props
+* Adjusted some MFD textures
+* Adjusted a few broken pivots on some props
+* Some props now have animations (Lights: Prop_Light_On, Racks: PropAnimate)
+* New Poster prop set courtesy of soldat_du_discotheque
+* New Labels prop set - lit labels for labelling things
+* New Gym prop set - exercise equipment
+* New Sockets prop set - electrical, USB and network sockets
+* New internal cabin door prop
+* 3 new computer screen props
 
 ## Prop List
 The following props are in this package
@@ -14,6 +23,8 @@ The following props are in this package
 * **NF_HTCH_IVA_Basic**: A round IVA hatch, mounted, single-sided
 * **NF_HTCH_IVA_2Sided**: A round IVA hatch, with only the hatch
 * **NF_HTCH_IVA_2SidedRing**: A round IVA hatch, with only the mounting ring
+* **NF_HTCH_IVA_Cabin**: A rectangular IVA hatch, just the ring
+* **NF_HTCH_IVA_Cabin_Door**: A rectangular IVA hatch, the door
 
 ### Seating
 * **NF_SEAT_Pilot**: A seat with foot pedals and joystick
@@ -37,6 +48,14 @@ The following props are in this package
 * **NF_HAB_Blackboard_Math**: A blackboard with some math on it
 * **NF_HAB_Whiteboard**: A whiteboard
 * **NF_HAB_Corkboard**: A corkboard
+* **NF_HAB_Socket_AC**: A wall AC socket
+* **NF_HAB_Socket_Network**: A wall network socket
+* **NF_HAB_Socket_USB**: A wall USB socket
+
+### Gym
+
+* **NF_GYM_Treadmill**: An exercise treadmill
+* **NF_GYM_Bike**: An exercise bike
 
 ### Cargo
 * **NF_CRGO_Net_Short**: A cargo net
@@ -68,6 +87,28 @@ The following props are in this package
 * **NF_RACK_Glovebox**: A rack-mounted glovebox
 * **NF_RACK_ScienceGadget_1**: A rack-mounted oscilloscope
 
+### Lit Labels
+* **NF_LABL_BerthA**: A sign for a berth
+* **NF_LABL_BerthB**: A sign for a berth
+* **NF_LABL_BerthC**: A sign for a berth
+* **NF_LABL_BerthD**: A sign for a berth
+* **NF_LABL_BerthE**: A sign for a berth
+* **NF_LABL_BerthF**: A sign for a berth
+* **NF_LABL_BerthG**: A sign for a berth
+* **NF_LABL_BerthH**: A sign for a berth
+* **NF_LABL_BerthI**: A sign for a berth
+* **NF_LABL_BerthJ**: A sign for a berth
+* **NF_LABL_BerthK**: A sign for a berth
+* **NF_LABL_BerthL**: A sign for a berth
+* **NF_LABL_Cabins**: A sign for cabins
+* **NF_LABL_Space**: A sign for an EVA hatch
+* **NF_LABL_Wardroom**: A sign for the wardroom
+* **NF_LABL_Gym**: A sign for a gym
+* **NF_LABL_Storage**: A sign for storage
+* **NF_LABL_Kitchen**: A sign for kitchen
+* **NF_LABL_CommonArea**: A sign for common areas
+* **NF_LABL_Exit**: An exit sign
+
 ### Lighting
 * **NF_LGHT_Box_Small**: A box light, small size
 * **NF_LGHT_Box_Med**: A box light, medium size
@@ -81,7 +122,7 @@ The following props are in this package
 * **NF_FOOD_CoffeePot_Espresso**: A stovetop espresso machine
 * **NF_FOOD_CoffeePot_FrenchPress**: A french press
 * **NF_FOOD_CoffeeBag**: A bag of Kicking Horse coffee
-* **NF_FOOD_CoffeeBag2**: A bag of Kicking Horse coffee\
+* **NF_FOOD_CoffeeBag2**: A bag of Kicking Horse coffee
 
 ### Rails and ladders
 * **NF_RAIL_Large_Black**: A black handhold rail
@@ -104,6 +145,9 @@ The following props are in this package
 * **NF_SCRN_Wide_IDE**: An intelliJ IDE
 * **NF_SCRN_Wide_Plots**: A bunch of matlab plots
 * **NF_SCRN_Wide_Botany1**: A screen showing ongoing Botany (TM)
+* **NF_SCRN_Wide_Botany2**: A screen showing more Botany (TM)
+* **NF_SCRN_Wide_Aquaculture1**: A screen showing Fishing (TM)
+* **NF_SCRN_Wide_Aquaculture2**: A screen showing some more Fishing (TM)
 
 ### Computers
 * **NF_COMP_Laptop**: A space-certified laptop
@@ -156,7 +200,12 @@ The following props are in this package
 * **NF_SWCH_Rocker_Blue**: A blue rocker switch
 * **NF_SWCH_Rocker_Green**: A green rocker switch
 * **NF_SWCH_Rocker_Red**: A red rocker switch
-
+* **NF_PAPR_Poster_Eeloo**: A poster showing a travel destination
+* **NF_PAPR_Poster_GrandTour**:  A poster showing a travel destination
+* **NF_PAPR_Poster_Jool**:  A poster showing a travel destination
+* **NF_PAPR_Poster_Laythe**: A poster showing a travel destination
+* **NF_PAPR_Poster_Duna**: A poster showing a travel destination
+* **NF_PAPR_Poster_Slate**: A poster showing a travel destination
 
 ### Specific RPM props
 * **NF_RPM_CNSL_MFD_Large**:
