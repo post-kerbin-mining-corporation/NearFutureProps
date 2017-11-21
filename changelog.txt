@@ -10,7 +10,6 @@
 - New Sockets prop set - electrical, USB and network sockets
 - New internal cabin door prop
 - New round and conference table props
-- 3 new computer screen props
 
 0.2.0
 -----

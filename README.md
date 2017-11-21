@@ -10,10 +10,8 @@ This is an IVA props set for Kerbal Space Program, useful for building detailed 
 * Some props now have animations (Lights: Prop_Light_On, Racks: PropAnimate)
 * New Poster prop set courtesy of soldat_du_discotheque
 * New Labels prop set - lit labels for labelling things
-* New Gym prop set - exercise equipment
 * New Sockets prop set - electrical, USB and network sockets
 * New internal cabin door prop
-* 3 new computer screen props
 
 ## Prop List
 The following props are in this package
