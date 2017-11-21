@@ -10,6 +10,7 @@
 - New Sockets prop set - electrical, USB and network sockets
 - New internal cabin door prop
 - New round and conference table props
+- New habitation props - pillows and sanitary station door
 
 0.2.0
 -----

@@ -11,6 +11,8 @@ This is an IVA props set for Kerbal Space Program, useful for building detailed 
 * New Poster prop set courtesy of soldat_du_discotheque
 * New Labels prop set - lit labels for labelling things
 * New Sockets prop set - electrical, USB and network sockets
+ New round and conference table props
+* New habitation props - pillows and sanitary station door
 * New internal cabin door prop
 
 ## Prop List
@@ -21,8 +23,8 @@ The following props are in this package
 * **NF_HTCH_IVA_Basic**: A round IVA hatch, mounted, single-sided
 * **NF_HTCH_IVA_2Sided**: A round IVA hatch, with only the hatch
 * **NF_HTCH_IVA_2SidedRing**: A round IVA hatch, with only the mounting ring
-* **NF_HTCH_IVA_Cabin**: A rectangular IVA hatch, just the ring
-* **NF_HTCH_IVA_Cabin_Door**: A rectangular IVA hatch, the door
+* **NF_HTCH_IVA_Cabin**: A rounded rectangular IVA hatch, just the ring
+* **NF_HTCH_IVA_Cabin_Door**: A rounded rectangular IVA hatch, the door
 
 ### Seating
 * **NF_SEAT_Pilot**: A seat with foot pedals and joystick
@@ -38,10 +40,14 @@ The following props are in this package
 * **NF_HAB_Fan_Case**: A wall vent with spinning fan
 * **NF_HAB_Radio**: A walkie-talkie radio
 * **NF_HAB_Table_Folding**: A fold-down table
+* **NF_HAB_Table_Round**: A round bistro table
+* **NF_HAB_Table_Conference**: A rounded rectangular conference table
 * **NF_HAB_Locker**: A storage locker
 * **NF_HAB_Locker_Door**: A storage locker with no door
 * **NF_HAB_Locker_Open**: A storage locker door
 * **NF_HAB_Hammock**: A sleeping bag on wall-mount hammock poles
+* **NF_HAB_Pillow**: A pillow
+* **NF_HAB_SanitaryDoor**: A door with a washroom symbol on it
 * **NF_HAB_Blackboard_Mission**: A blackboard with a mission diagram on it
 * **NF_HAB_Blackboard_Math**: A blackboard with some math on it
 * **NF_HAB_Whiteboard**: A whiteboard
