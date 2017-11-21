@@ -1,5 +1,9 @@
-﻿                          [#00ff00]Radar altitude
-  [hw][sub]70km[/sub][/hw]                        [#ff0000]ASL altitude
+﻿
+
+   [#FFFFFFFF]ASL Altitude:    {0,8:0} m [#00FF00FF]ApA: {1:SIP_6.1}m  $&$ ALTITUDE APOAPSIS
+   [#00FFFFFF]Atmosphere Top:  {0,8:0} m [#FF0000FF]PeA: {1:SIP_6.1}m  $&$ ORBITBODYATMOSPHERETOP PERIAPSIS
+   [#FF00FFFF]Dynamic Pressure:{0,8:0}   $&$ DYNAMICPRESSURE
+[hw][sub][@y-12] 120km[/sub][/hw]                        
 
 
 
@@ -10,11 +14,6 @@
 
 
 
-
-
-
-
-
-   [hw][sub]0[/sub]
-    [hw][sup]T-700 seconds                                                   T-0[/sup]
- MET: {0:KDTyy:ddd:hh:mm:ss.f} $&$ METSECS
+  
+ [hw][sub][@y12]0km[/sub][/hw]  
+  [hw][sub]300 sec [/hw][/sub]        [@y10][#00FFFFFF]MET: [#00FF00FF]{0:METyy:ddd:hh:mm:ss.f}[#FFFFFFFF][@y0]        [hw][sub]  0 sec  [/sub] $&$ METSECS

@@ -1,0 +1,19 @@
+﻿
+
+   [#00FF00FF]Height:{0,8:0} m  [#FF0000FF]SLOPE: {1,5:0.00}$&$ TERRAINHEIGHT SLOPEANGLE
+   [#00FFFFFF]Real Altitude:  {0,8:0} m $&$ ALTITUDEBOTTOM
+ 
+     TERRAIN PROFILE                    
+
+
+
+
+
+
+
+
+
+
+  
+ [hw][sub][@y12]0m[/sub][/hw]  
+  [hw][sub]300 sec [/hw][/sub]        [@y10][#00FFFFFF]MET: [#00FF00FF]{0:METyy:ddd:hh:mm:ss.f}[#FFFFFFFF][@y0]        [hw][sub]  0 sec  [/sub] $&$ METSECS

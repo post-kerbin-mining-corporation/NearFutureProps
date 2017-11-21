@@ -1,8 +1,8 @@
-   Asc/Des Mode     Body: {0} $&$ ORBITBODY
-R.Alt [#00ffffff]{0:SIP_6.3}m            [#ffffffff]Roll: [#00ffffff]{1,7:0.00}° $&$RADARALT ROLL
-V.Spd [#00ffffff]{0:SIP_6.3}m/s          [#ffffffff]Pitch:[#00ffffff]{1,7:0.00}° $&$VERTSPEED PITCH
-H.Spd [#00ffffff]{0:SIP_6.3}m/s          [#ffffffff]Hdg:  [#00ffffff]{1,7:0.00}° $&$HORZVELOCITY HEADING
-TWR:[#00ffffff]{0,4:0.00}[#ffffffff]/[#0099ffff]{1,4:0.0}       [#ffffffff]Thr:[#00ffffff]{2,6:0.00}[#ffffffff]/[#0099ffff]{3,6:0.0}kN $&$TWR TWRMAX THRUST THRUSTMAX
+﻿   [#00FF00FF]ASC/DES                      [#00FF00FF]SRF: {0} $&$ ORBITBODY
+[#00FFFFFF]R.ALT  {0:SIP_6.3}m             [#00FFFFFF]ROLL: [#00FFFFFF]{1,7:0.00}° $&$RADARALT ROLL
+[#00FFFFFF]V.SPD {0:SIP_6.3}m/s            [#00FFFFFF]PITCH:[#00FFFFFF]{1,7:0.00}° $&$VERTSPEED PITCH
+[#00FFFFFF]H.SPD  {0:SIP_6.3}m/s           [#00FFFFFF]HDG:  [#00FFFFFF]{1,7:0.00}° $&$HORZVELOCITY HEADING
+[#00FFFFFF]  TWR  {0,4:0.0 }[#00FFFFFF]/[#00FFFFFF]{1,4:0.0}           [#00FFFFFF]{0:"SLOPE:   "0.0°; } $&$TWR TWRMAX SLOPEANGLE
 
 
 
@@ -13,8 +13,8 @@ TWR:[#00ffffff]{0,4:0.00}[#ffffffff]/[#0099ffff]{1,4:0.0}       [#ffffffff]Thr:[
 
 
 
-{0:"                 Slope: "0.0°;                                        } $&$ SLOPEANGLE
-  [#ffffff70]Lat:[#ffffffff]{0:DMSdd+mm+ss+N}      [#ffffff70]Lon:[#ffffffff]{1:DMSdd+mm+ss+E}$&$LATITUDE LONGITUDE
-{2:;"                                        ";""}[#ffffff70]T.Lat:[#ffffffff]{0:DMSdd+mm+ss+N}    [#ffffff70]T.Lon:[#ffffffff]{1:DMSdd+mm+ss+E}$&$LATITUDETGT LONGITUDETGT TARGETEXISTS
-{1:"Ascent                                   ";"[#ff9999ff]!Descent![#ffffffff] ";""}  {0:;                                      }Est. {0:KDTMM:ss.f}s $&$TIMETOIMPACTSECS VERTSPEEDROUNDED
-SAS:{0,-3:"[#00ff00ff]On [#ffffffff]";0;Off}| RCS:{1,-3:"[#00ff00ff]On [#ffffffff]";0;Off}/{2:####.##;;"[#ff0000ff]!Empty![#ffffffff]"}| LF:{3:#####.##;;"[#ff0000ff]!Empty!"}$&$ SAS RCS MONOPROP FUEL
+
+  [#00ffff70]LAT:[#00ff00ff]{0:DMSdd+mm+ss+N}{2:;"                                        ";""}       [#00ffff70]T.LAT:[#00ff00ff]{1:DMSdd+mm+ss+N}$&$LATITUDE LATITUDETGT TARGETEXISTS
+  [#00ffff70]LON:[#00ff00ff]{0:DMSdd+mm+ss+E}{2:;"                                        ";""}       [#00ffff70]T.LON:[#00ff00ff]{1:DMSdd+mm+ss+E}$&$LONGITUDE LONGITUDETGT TARGETEXISTS
+          [#99FF99FF]{1:"ASCENT                                             ";"[#FF9999FF]!DESCENT![#ffffffff] ";""}  {0:;                                                }     TTI: {0:KDTMM:ss.f}s $&$TIMETOIMPACTSECS VERTSPEEDROUNDED
+[#00FFFFFF]SAS:[font2]{0,-3:"[#00FF00FF]ON ";0;"[#FF0000FF]OFF"}[#00FFFFFF][font0]| RCS:[font2]{1,-3:"[#00FF00FF]ON ";0;"[#FF0000FF]OFF"}[font0]      [#00FFFFFF]MP:[#00FF00FF]{2:####.##;;"[#ff0000ff][font2] EMPTY[font0]"}[#00FFFFFF] LF:{3:#####.##;;"[#ff0000ff][font2] EMPTY "}$&$ SAS RCS SYSR_MONOPROPELLANT SYSR_LIQUIDFUEL
