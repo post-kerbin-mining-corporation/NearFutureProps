@@ -16,5 +16,5 @@
 [#00FFFFFF]{0,15}{2:\:;;"                                           "}[#{1:"00FF00FF";FF0000FF;FF0000FF}]{1,8:0.0;"EMPTY";"EMPTY"}[#00FFFFFF]{2:½;"         ";} {2,8:0;;} [#000000FF][font2]{3,5:P0} [@x-96][font0][#000000FF][#00FF00FF][hw][#00AA00FF]{3:BAR¨,24} [#00FFFFFF][@x-296][/hw]ª««««««««««¬ [@x-420][/hw][#00FFFFFF]{4:"";"";"                   "}{4:0.00}            $&$LISTR_12_NAME LISTR_12_STAGEVAL LISTR_12_STAGEMAX LISTR_12_STAGEPERCENT LISTR_12_STAGEDELTA
 [#00FFFFFF]{0,15}{2:\:;;"                                           "}[#{1:"00FF00FF";FF0000FF;FF0000FF}]{1,8:0.0;"EMPTY";"EMPTY"}[#00FFFFFF]{2:½;"         ";} {2,8:0;;} [#000000FF][font2]{3,5:P0} [@x-96][font0][#000000FF][#00FF00FF][hw][#00AA00FF]{3:BAR¨,24} [#00FFFFFF][@x-296][/hw]ª««««««««««¬ [@x-420][/hw][#00FFFFFF]{4:"";"";"                   "}{4:0.00}            $&$LISTR_13_NAME LISTR_13_STAGEVAL LISTR_13_STAGEMAX LISTR_13_STAGEPERCENT LISTR_13_STAGEDELTA
 
-[@y-12][#00FFFFFF]¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥
+[#00FFFFFF]¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥
 [#00FFFFFF]TOTAL MASS:[#00FF00FF]{0,9:0.000} t.              $&$MASSRESOURCES

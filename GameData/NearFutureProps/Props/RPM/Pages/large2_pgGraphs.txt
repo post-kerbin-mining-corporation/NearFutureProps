@@ -1,4 +1,4 @@
-﻿                  [#00ff00]Radar altitude
+                  [#00ff00]Radar altitude
   [hw][sub]70km[/sub][/hw]                [#ff0000]ASL altitude
 
 
