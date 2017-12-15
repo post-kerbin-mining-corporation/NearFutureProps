@@ -1,3 +1,17 @@
+0.2.1
+-----
+- Fixed export layer of rack props
+- Adjusted some MFD textures
+- Adjusted a few broken pivots on some props
+- Fixed offset door on basic locket prop
+- Some props now have animations (Lights: Prop_Light_On, Racks: PropAnimate)
+- New Poster prop set courtesy of soldat_du_discotheque
+- New Labels prop set - lit labels for labelling things
+- New Sockets prop set - electrical, USB and network sockets
+- New internal cabin door prop
+- New round and conference table props
+- New habitation props - pillows and sanitary station door
+
 0.2.0
 -----
 - First properly versioned release

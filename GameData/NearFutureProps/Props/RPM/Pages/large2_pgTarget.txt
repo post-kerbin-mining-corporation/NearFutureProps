@@ -1,20 +1,25 @@
-{1:"Target: ";"";""}{0}{1:;"Target: [#ffffff30]NO TARGET";""} $&$ TARGETNAME TARGETEXISTS
-{2:;"                                        ";""}Dist: {0:SIP_6.3}m   Vel: {1:SIP_6.3}m/s $&$ TARGETDISTANCE APPROACHSPEED TARGETEXISTS
-{3:;"                                        ";""}R.Ang X: {0,6:0.00}° Y:{1,6:0.00}° Z: {2,6:0.00}° $&$TARGETANGLEX TARGETANGLEY TARGETANGLEZ TARGETEXISTS
-{0:;;"    Please select a docking port as"} $&$ ISDOCKINGPORTREFERENCE
-{0:;;"       reference part in target"} $&$ ISDOCKINGPORTREFERENCE
-{0:;;"	         management menu."} $&$ ISDOCKINGPORTREFERENCE
+﻿{2:"TARGET BODY: ";"";""}[#00FFFFFF]{1:"TGT: ";"";""}[#00FF00FF]{0,-25}{1:;"[#FF0000FF]NO TRACK                                                    ";""}[font2][#FF0000FF]{1:"NO PORT SELECTED";;}  				$&$ TARGETNAME TARGETEXISTS TARGETISCELESTIAL TARGETISDOCKINGPORT
+{0:;"                                                            ";""}[#00FFFFFF]APPR.SPD:[#{1:11FF11FF;FF1111FF;00FF00FF}]{1:SIP_8.3}m/s 	         {0:"";"                                                            ";"                                                            "}[#00FFFFFF]   R.ANGLES						$&$ TARGETEXISTS APPROACHSPEED TARGETISDOCKINGPORT
+{0:;"                                                            ";""}[#00FFFFFF]DIST:    [#00FF00FF]{1:SIP_8.3}m      [#FF0000FF]   {0:"";"                                                            ";"                                                            "}       [#{4:00FF00FF;FF0000FF;FF0000FF}]{4:"[font0]X:";"[font0]X:";[font2]"X:"}[font0][#FF00FFFF]{3:0.000}°		$&$ TARGETEXISTS TARGETDISTANCE TARGETISDOCKINGPORT TARGETANGLEX  CUSTOM_ALCOR_TARGETANGLEXGOOD
+{0:;"                                                            ";""}[#00FFFFFF]R.VEL:   [#00FF00FF]{1:SIP_8.3}m/s              {0:"";"                                                            ";"                                                            "}[#{4:00FF00FF;FF0000FF;FF0000FF}]{4:"[font0]Y:";"[font0]Y:";[font2]"Y:"}[font0][#FF00FFFF]{3:0.000}°		$&$ TARGETEXISTS TRGTSPEED TARGETISDOCKINGPORT TARGETANGLEY CUSTOM_ALCOR_TARGETANGLEYGOOD
+{0:;"                                                            ";""}[#00FFFFFF]R.INC:   [#00FF00FF]{1,7:0.000}°                 {0:"";"                                                            ";"                                                            "}[#00FF00FF]Z:[#FF00FFFF]{3:0.000}°		$&$ TARGETEXISTS RELATIVEINCLINATION TARGETISDOCKINGPORT TARGETANGLEZ
+{0:;;"       [#FF0000FF]Please select a docking port as"}  $&$ ISREMOTEREFERENCE 
+{0:;;"           [#FF0000FF]reference part in target"}  $&$ ISREMOTEREFERENCE 
+{0:;;"              [#FF0000FF]management menu."                                }$&$ ISREMOTEREFERENCE  
+[#FF0000FF]     {0:"[font2]WRONG ANGLE[font0]";"           ";"           "}                          [#00FF00FF]{1:"[font2]>RCS< [font0]";"";""}$&$DOCKINGANGLEALARM SYSR_MONOPROPELLANTDELTA
+[#ff000077]{1:;"                                                            ";""}                  [@x-{2:0.0}][@y-{2:0.0}]¢        [@x{2:0.0}][@y-{2:0.0}]¡ $&$ ISREMOTEREFERENCE TARGETEXISTS TARGETANGLEDEV
 
+                   [#00CC00FF]   [@y-13]{0:"/\";"";""}  [@x-64][@y-43]{0:"/\";"";""}                   $&$ STICKRCSY 
+[#00CC00FF]                   [@y-15]{0:"//";"      \\";""} {3:"                                    ";"";""}[#FF0000FF]       [@y-6]{0:"      [font2]RCS OFF![font0]             ";"[font2]RCS OFF![font0]          ";""}{1:"        [font2]RCS OFF![font0]          ";"        [font2]RCS OFF![font0]            ";""}{2:"        [font2]RCS OFF![font0]         ";"        [font2]RCS OFF![font0]         ";""}    										$&$	STICKRCSX STICKRCSY STICKRCSZ RCS
+[#00CC00FF]                   [@y-15]{0:"\\";"      //";""}   											$&$	STICKRCSX STICKRCSY STICKRCSZ
+                   [#00CC00FF]   [@y-19]{0:"";"\/";""}  [@x-64][@y11]{0:"";"\/";""}                   		$&$ STICKRCSY 
+{0:;"                                                            ";""}                  [#ff000077][@x-{1:0.0}][@y{1:0.0}]¤        [@x{1:0.0}][@y{1:0.0}]£ $&$ TARGETEXISTS TARGETANGLEDEV
+[font2][#{1:00FF00FF;00FF00FF;00000000}]READY FOR[font0][hw] [font2][#{1:00000044;00FF00FF;00000000}]                                                                                [@x-640][#{1:00FF00FF;00FF00FF;00000000}][hw][font0]{0:BAR-#>,-40,0,10}[#{1:FFFF00FF;00FF00FF;00000000}]||[#{1:00FF00FF;00FF00FF;00000000}]{0:BAR-#<,40,0,10}[font0] [/hw] $&$ TARGETDISTANCE CUSTOM_ALCOR_FINALAPPROACH
+[font2][#{1:00FF00FF;00FF00FF;00000000}] DOCKING [font0] [#FF0000FF] {0:"[font2]TOO FAST[font0]";"";""} $&$DOCKINGSPEEDALARM CUSTOM_ALCOR_FINALAPPROACH
 
-{0:;"                                                        ";""}                [#ffffff77][@x-{1:0.0}][@y-{1:0.0}]¢      [@x{1:0.0}][@y-{1:0.0}]¡ $&$ TARGETEXISTS TARGETANGLEDEV
-
-   
-{0:;"                                                        ";""}                [#ffffff77][@x-{1:0.0}][@y{1:0.0}]¤      [@x{1:0.0}][@y{1:0.0}]£ $&$ TARGETEXISTS TARGETANGLEDEV
-
-
-{0:;"                                                    ";""} R.Velocity                 R.Distance $&$ TARGETEXISTS   
-{2:;"                                        ";""} X:{0:SIP_8.3}m/s              X:{1:SIP_6.3}m $&$TGTRELX TARGETDISTANCEX TARGETEXISTS
-{2:;"                                        ";""} Y:{0:SIP_8.3}m/s              Y:{1:SIP_6.3}m $&$TGTRELY TARGETDISTANCEY TARGETEXISTS
-{2:;"                                        ";""} Z:{0:SIP_8.3}m/s              Z:{1:SIP_6.3}m $&$TGTRELZ TARGETDISTANCEZ TARGETEXISTS
-________________________________________
-SAS:{0,-6:"[#00ff00ff]Active[#ffffffff]";0;Off}| RCS:{1,-6:"[#00ff00ff]Active[#ffffffff]";0;Off}| {2:####.##;;"[#ff0000ff]!Empty!"}$&$ SAS RCS MONOPROP
+{1:"                                                            ";"";""}{0:;"                                                            ";""}[#00FFFFFF] REL.VEL                           REL.DIST $&$ TARGETEXISTS TARGETISCELESTIAL  
+{3:"                                                            ";"";""}{2:;"                                                            ";""}[#00FF00FF] X:[#FF00FFFF]{0:SIP_8.3}m/s                  [dw][font2][#{5:00FF00FF;00000000;00000000}]{4:"[font2]-";"[font2]+";[font0]" "}[font0][/dw] [#{6:00FF00FF;FF0000FF;FF0000FF}]{6:"[font0]X:";"[font0]X:";[font2]"X:"}[font0][#FF00FFFF]{1:SIP_6.3}m $&$TGTRELX TARGETDISTANCEX TARGETEXISTS TARGETISCELESTIAL STICKRCSX RCS CUSTOM_ALCOR_TARGETDISTANCEXGOOD
+{3:"                                                            ";"";""}{2:;"                                                            ";""}[#00FF00FF] Y:[#FF00FFFF]{0:SIP_8.3}m/s                  [dw][font2][#{5:00FF00FF;00000000;00000000}]{4:"[font2]-";"[font2]+";[font0]" "}[font0][/dw] [#{6:00FF00FF;FF0000FF;FF0000FF}]{6:"[font0]Y:";"[font0]Y:";[font2]"Y:"}[font0][#FF00FFFF]{1:SIP_6.3}m $&$TGTRELY TARGETDISTANCEY TARGETEXISTS TARGETISCELESTIAL STICKRCSY RCS CUSTOM_ALCOR_TARGETDISTANCEYGOOD
+{3:"                                                            ";"";""}{2:;"                                                            ";""}[#00FF00FF] Z:[#FF00FFFF]{0:SIP_8.3}m/s                  [dw][font2][#{5:00FF00FF;00000000;00000000}]{4:"[font2]-";"[font2]+";[font0]" "}[font0][/dw] [#00FF00FF]Z:[#FF00FFFF]{1:SIP_6.3}m $&$TGTRELZ TARGETDISTANCEZ TARGETEXISTS TARGETISCELESTIAL STICKRCSZ RCS
+[#00FFFFFF]¥¥¥¥¥¥¥¿¥¥¥¥¥¥¥¥¿¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥
+[#00FFFFFF]SAS:[font2]{0,-6:"[#00FF00FF]ON ";0;"[#FF0000FF]OFF"}[#00FFFFFF][font0]½ RCS:[font2]{1,-6:"[#00FF00FF]ON ";0;"[#FF0000FF]OFF"}[#00FFFFFF][font0]½ [#00FF00FF]{2:####.##;;"[#FF0000FF][font2]EMPTY"}$&$ SAS RCS SYSR_MONOPROPELLANT

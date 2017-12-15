@@ -1,0 +1,25 @@
+﻿   [#00FF00FF]ASC/DSC              [#00FF00FF]BODY: {0} $&$ ORBITBODY
+[#00FFFFFF]R.ALT:  [#00FF00FF]{0:SIP_6.3}m         [#00FFFFFF]ROLL: [#00FF00FF]{1,7:0.00}° $&$RADARALT ROLL
+[#00FFFFFF]V.SPD: [#00FF00FF]{0:SIP_6.3}m/s        [#00FFFFFF]PITCH:[#00FF00FF]{1,7:0.00}° $&$VERTSPEED PITCH
+[#00FFFFFF]H.SPD:  [#00FF00FF]{0:SIP_6.3}m/s       [#00FFFFFF]HDG:  [#00FF00FF]{1,7:0.00}° $&$HORZVELOCITY HEADING
+[#00FFFFFF]  TWR:  [#00FF00FF]{0,4:0.0 }[#00FFFFFF]/[#00FF00FF]{1,4:0.0}       [#00FFFFFF]{0:"SLOPE:   [#00FF00FF]"0.0°; } $&$TWR TWRMAX SLOPEANGLE
+{1:"[#00FF00FF]ASCENT                                                ";"[#FF0000FF]!DESCENT![#00FFFFFF] ";""}  {0:;                                                               }TTI: [#00FF00FF]{0:KDTMM:ss.f}s $&$TIMETOIMPACTSECS VERTSPEEDROUNDED
+[@y-10][#00FFFFFF]¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥
+
+
+
+
+
+
+
+
+
+
+[@y-2][#00FFFFFF]¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥
+  [@y-10][#00ffffff]LAT:[#00ff00ff]{0:DMSdd+mm+ss+N}      [#00ffffff]LON:[#00ff00ff]{1:DMSdd+mm+ss+E}$&$LATITUDE LONGITUDE
+{2:;"                                                                                 ";""}[#00ffffff]T.LAT:[#00ff00ff]{0:DMSdd+mm+ss+N}    [#00ffffff]T.LON:[#00ff00ff]{1:DMSdd+mm+ss+E}$&$LATITUDETGT LONGITUDETGT TARGETEXISTS
+[#00FFFFFF]LF:  {0:#####.##;;"[#ff0000ff][font2] EMPTY [font0]"} $&$ SYSR_LIQUIDFUEL
+[#00FFFFFF]LH2: [#00FF00FF]{0:#####.##;;"[#ff0000ff][font2] EMPTY "} $&$ SYSR_LQDHYDROGEN
+[#00FFFFFF]MP:  [#00FF00FF]{0:####.##;;"[#ff0000ff][font2] EMPTY [font0]"} $&$ SYSR_MONOPROPELLANT
+[#00FFFFFF]¥¥¥¥¥¥¥¿¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥¥
+[#00FFFFFF]SAS:[font2]{0,-3:"[#00FF00FF]ON ";0;"[#FF0000FF]OFF"}[#00FFFFFF][font0]½ RCS:[font2]{1,-3:"[#00FF00FF]ON ";0;"[#FF0000FF]OFF"} $&$ SAS RCS
