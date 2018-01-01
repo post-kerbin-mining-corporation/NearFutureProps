@@ -1,19 +1,14 @@
-# Near Future Props 0.2.1
+# Near Future Props 0.2.2
 This is an IVA props set for Kerbal Space Program, useful for building detailed internal spaces. It has all sorts of fun parts, some inspired by real space gadgets, some by general science, and some that are just fun.
 
 ## Recent Changes
 
-**0.2.1**
-* Fixed export layer of rack props
-* Adjusted some MFD textures
-* Adjusted a few broken pivots on some props
-* Some props now have animations (Lights: Prop_Light_On, Racks: PropAnimate)
-* New Poster prop set courtesy of soldat_du_discotheque
-* New Labels prop set - lit labels for labelling things
-* New Sockets prop set - electrical, USB and network sockets
- New round and conference table props
-* New habitation props - pillows and sanitary station door
-* New internal cabin door prop
+**0.2.2**
+* Fixed export of Rack Glovebox prop
+* New prop set - Gym, includes stationary bike, treadmill, free weights and gym mats
+* New prop set - Plants, includes potato, tomato and kale plants, potato and tomato props, as well as hydroponic planters and a flowerpot
+* New prop set - Tanks, includes wall mounted and simple cylinder gas tanks, with O2, N2, H2O, generic explosive, generic flammable and generic poisonous versions
+* New rack props - Work bench, drawer, server w/drive bays, power distribution station, power monitor science gadget, data logger science gadget
 
 ## Prop List
 The following props are in this package
@@ -57,9 +52,12 @@ The following props are in this package
 * **NF_HAB_Socket_USB**: A wall USB socket
 
 ### Gym
-
 * **NF_GYM_Treadmill**: An exercise treadmill
 * **NF_GYM_Bike**: An exercise bike
+* **NF_GYM_SmallWeight**: a small dumbbell
+* **NF_GYM_MediumWeight**: a larger dumbbell
+* **NF_GYM_FloorMat**: A blue gym floor mat
+* **NF_GYM_YogaMat**: A rolled yoga mat
 
 ### Cargo
 * **NF_CRGO_Net_Short**: A cargo net
@@ -89,7 +87,12 @@ The following props are in this package
 * **NF_RACK_SpecimenBox**: A rack-mounted specimen box
 * **NF_RACK_Tray**: A rack-mounted extending tray
 * **NF_RACK_Glovebox**: A rack-mounted glovebox
+* **NF_RACK_Power**: A rack-mounted glovebox
+* **NF_RACK_Drawer**: A rack-mounted drawer
+* **NF_RACK_Counter**: A countertop for a rack
 * **NF_RACK_ScienceGadget_1**: A rack-mounted oscilloscope
+* **NF_RACK_ScienceGadget_2**: A rack-mounted power node thingy
+* **NF_RACK_ScienceGadget_3**: A rack-mounted datalogger
 
 ### Lit Labels
 * **NF_LABL_BerthA**: A sign for a berth
@@ -127,6 +130,31 @@ The following props are in this package
 * **NF_FOOD_CoffeePot_FrenchPress**: A french press
 * **NF_FOOD_CoffeeBag**: A bag of Kicking Horse coffee
 * **NF_FOOD_CoffeeBag2**: A bag of Kicking Horse coffee
+
+### Plants
+* **NF_PLNT_PotatoPlant**: A potato plant
+* **NF_PLNT_KalePlant**: A kale plant
+* **NF_PLNT_TomatoPlant**: A tomato plant
+* **NF_PLNT_BCBud**: A special plant
+* **NF_PLNT_Tomato**: A single tomato
+* **NF_PLNT_Potato**: A single potato
+* **NF_PLNT_Flowerpot**: A small flower pot
+* **NF_PLNT_HydroponicsSmall**: A hydroponic planter of small size
+* **NF_PLNT_Hydroponics**: A hydroponic planter of larger size
+
+### Tanks
+* **NF_TANK_Simple_O2**: A simple tank with O2 symbol
+* **NF_TANK_Simple_N2**: A simple tank with N2 symbol
+* **NF_TANK_Simple_H2O**: A simple tank with H2O symbol
+* **NF_TANK_Simple_GenericExplosive**: A simple tank with an explosive symbol
+* **NF_TANK_Simple_GenericFlammable**: A simple tank with a flammable symbol
+* **NF_TANK_Simple_GenericPoison**: A simple tank with a poison symbol
+* **NF_TANK_Wall_O2**: A wall-mount tank with O2 symbol
+* **NF_TANK_Wall_N2**: A wall-mount tank with N2 symbol
+* **NF_TANK_Wall_H2O**: A wall-mount tank with H2O symbol
+* **NF_TANK_Wall_GenericExplosive**: A wall-mount tank with an explosive symbol
+* **NF_TANK_Wall_GenericFlammable**: A wall-mount tank with a flammable symbol
+* **NF_TANK_Wall_GenericPoison**: A wall-mount tank with a poison symbol
 
 ### Rails and ladders
 * **NF_RAIL_Large_Black**: A black handhold rail
