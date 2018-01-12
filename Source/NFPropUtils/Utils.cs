@@ -15,7 +15,7 @@ namespace NFPropUtils
     /// Sets up an animation for KSP purposes and returns it
     public static AnimationState SetUpAnimation(string animationName, InternalModule prop, int layer)
     {
-        Animation animation  = prop.FindModelAnimators(animationName).First();
+        Animation animation  = prop.internalProp.FindModelAnimators(animationName).First();
         AnimationState animationState = animation[animationName];
         animationState.speed = 0;
         animationState.layer = layer;

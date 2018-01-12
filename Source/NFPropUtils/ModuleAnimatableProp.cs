@@ -31,9 +31,9 @@ namespace NFPropUtils
     {
       if (animationName != "")
       {
-        anim = Utils.SetUpAnimation(animationName, this.internalProp, animationLayer);
-        anim.normalizedTime = Random.Range(0f, animationRandomStart);
-        animRealSpeed = animationSpeed + Random.Range(-animationRandomSpeed, animationRandomSpeed);
+        anim = Utils.SetUpAnimation(animationName, this, animationLayer);
+        anim.normalizedTime = UnityEngine.Random.Range(0f, animationRandomStart);
+        animRealSpeed = animationSpeed + UnityEngine.Random.Range(-animationRandomSpeed, animationRandomSpeed);
       }
     }
     public void FixedUpdate()
@@ -43,7 +43,7 @@ namespace NFPropUtils
         anim.normalizedTime += TimeWarp.fixedDeltaTime * animRealSpeed;
         // Wrap me
         if (anim.normalizedTime >= 1.0)
-          anim.normalizedTime = 0.0;
+          anim.normalizedTime = 0.0f;
       }
     }
   }
