@@ -1,5 +1,7 @@
-0.2.2
+0.3.0
 -----
+- All animatable props now animate thanks to plugin component
+- Minor fixes to many props
 - Fixed RACK_GloveBox prop not loading
 - New Gym prop set - floor mat, rolled yoga mat, 2 sizes of dumbell, exercise bike and treadmill
 - New Plants prop set - 2 sizes of hydroponics container, flowerpot, potato plant, tomato plant, kale plant, single tomato, single potato

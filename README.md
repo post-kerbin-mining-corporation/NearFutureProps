@@ -3,7 +3,9 @@ This is an IVA props set for Kerbal Space Program, useful for building detailed 
 
 ## Recent Changes
 
-**0.2.2**
+**0.3.0**
+* All animatable props now animate
+* Minor fixes to many props
 * Fixed export of Rack Glovebox prop
 * New prop set - Gym, includes stationary bike, treadmill, free weights and gym mats
 * New prop set - Plants, includes potato, tomato and kale plants, potato and tomato props, as well as hydroponic planters and a flowerpot
