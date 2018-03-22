@@ -1,3 +1,9 @@
+0.3.1
+-----
+- Recompile for KSP 1.4.1
+- Fixed missing curly brace in NF_FOOD_CoffeeMug_Flag
+- Fixed typo in NF_RACK_GloveBox
+
 0.3.0
 -----
 - All animatable props now animate thanks to plugin component
