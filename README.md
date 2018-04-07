@@ -12,15 +12,6 @@ This is an IVA props set for Kerbal Space Program, useful for building detailed 
 * Fixed missing curly brace in NF_FOOD_CoffeeMug_Flag
 * Fixed typo in NF_RACK_GloveBox
 
-**0.3.0**
-* All animatable props now animate
-* Minor fixes to many props
-* Fixed export of Rack Glovebox prop
-* New prop set - Gym, includes stationary bike, treadmill, free weights and gym mats
-* New prop set - Plants, includes potato, tomato and kale plants, potato and tomato props, as well as hydroponic planters and a flowerpot
-* New prop set - Tanks, includes wall mounted and simple cylinder gas tanks, with O2, N2, H2O, generic explosive, generic flammable and generic poisonous versions
-* New rack props - Work bench, drawer, server w/drive bays, power distribution station, power monitor science gadget, data logger science gadget
-
 ## Prop List
 The following props are in this package
 
