@@ -1,21 +1,16 @@
-# Near Future Props 0.3.1
+# Near Future Props 0.3.2
 This is an IVA props set for Kerbal Space Program, useful for building detailed internal spaces. It has all sorts of fun parts, some inspired by real space gadgets, some by general science, and some that are just fun.
 
 ## Recent Changes
 
-**0.3.01**
+**0.3.2**
+* Recompile for KSP 1.4.2
+* Updated MiniAVC to 1.2.0.1
+
+**0.3.1**
 * Recompile for KSP 1.4.1
 * Fixed missing curly brace in NF_FOOD_CoffeeMug_Flag
 * Fixed typo in NF_RACK_GloveBox
-
-**0.3.0**
-* All animatable props now animate
-* Minor fixes to many props
-* Fixed export of Rack Glovebox prop
-* New prop set - Gym, includes stationary bike, treadmill, free weights and gym mats
-* New prop set - Plants, includes potato, tomato and kale plants, potato and tomato props, as well as hydroponic planters and a flowerpot
-* New prop set - Tanks, includes wall mounted and simple cylinder gas tanks, with O2, N2, H2O, generic explosive, generic flammable and generic poisonous versions
-* New rack props - Work bench, drawer, server w/drive bays, power distribution station, power monitor science gadget, data logger science gadget
 
 ## Prop List
 The following props are in this package
