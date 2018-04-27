@@ -1,3 +1,8 @@
+0.3.3
+-----
+- KSP 1.4.3
+- Switched versioning to mix/max specification
+
 0.3.2
 -----
 - Recompile for KSP 1.4.2
