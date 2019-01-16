@@ -1,4 +1,4 @@
-# Near Future Props 0.3.5
+# Near Future Props 0.5.0
 This is an IVA props set for Kerbal Space Program, useful for building detailed internal spaces. It has all sorts of fun parts, some inspired by real space gadgets, some by general science, and some that are just fun.
 
 ## Recent Changes
