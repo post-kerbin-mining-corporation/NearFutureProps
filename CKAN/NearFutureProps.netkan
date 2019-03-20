@@ -1,0 +1,24 @@
+{
+    "spec_version":   "v1.4",
+    "identifier":     "NearFutureProps",
+    "name":           "Near Future IVA Props",
+    "abstract":       "Prop pack used to accessorize and decorate IVA spaces",
+    "$kref":          "#/ckan/github/ChrisAdderley/NearFutureProps",
+    "$vref":          "#/ckan/ksp-avc",
+    "x_netkan_epoch": "1",
+    "license":        "CC-BY-NC-SA-4.0",
+    "resources": {
+        "homepage": "https://forum.kerbalspaceprogram.com/index.php?/topic/166941-*",
+        "repository": "https://github.com/ChrisAdderley/NearFutureElectrical"
+    },
+    "supports": [
+        { "name": "NearFutureSpacecraft"  },
+        { "name": "StationPartsExpansionRedux" }
+    ],
+    "install": [
+        {
+            "find":       "NearFutureProps",
+            "install_to": "GameData"
+        }
+    ]
+}
