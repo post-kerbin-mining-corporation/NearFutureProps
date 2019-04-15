@@ -11,7 +11,6 @@ script:
   - cd build-deploy
   - git checkout master
   - cd ..
-  - pytest -s --testpath "GameData/" build-deploy/src/tests/  # run the deploy tests
   - python build-deploy/src/package.py --f ".mod_data.yml"  # Build package
 before_deploy:
   - python build-deploy/src/stage.py --f ".mod_data.yml" # Run the staging script
