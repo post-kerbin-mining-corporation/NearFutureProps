@@ -1,3 +1,8 @@
+0.6.1
+-----
+- KSP 1.8.x
+- Recompiled against .NET 4.5
+
 0.5.1
 -----
 - KSP 1.7.x
