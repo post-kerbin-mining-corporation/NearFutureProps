@@ -163,14 +163,56 @@ The following props are in this package
 * **NF_SCRN_Tall_Blank**: A blank screen
 * **NF_SCRN_Tall_Engineering**: An engineering-focused screen
 * **NF_SCRN_Tall_Orbit**: an orbit-focused screen
-* **NF_SCRN_Wide_CommandPrompt1**: A screen showing the linus top command
-* **NF_SCRN_Wide_CommandPrompt2**: A screen showing an easter egg
+* **NF_SCRN_Wide_CommandPrompt1**: A screen showing the linux top command
+* **NF_SCRN_Wide_CommandPrompt2**: A screen showing an easter egg (one of many)
 * **NF_SCRN_Wide_IDE**: An intelliJ IDE
 * **NF_SCRN_Wide_Plots**: A bunch of matlab plots
-* **NF_SCRN_Wide_Botany1**: A screen showing ongoing Botany (TM)
-* **NF_SCRN_Wide_Botany2**: A screen showing more Botany (TM)
-* **NF_SCRN_Wide_Aquaculture1**: A screen showing Fishing (TM)
-* **NF_SCRN_Wide_Aquaculture2**: A screen showing some more Fishing (TM)
+* **NF_SCRN_Wide_Botany1**: A screen showing ongoing Botany (TM). ITS SIM FARM. 
+* **NF_SCRN_Wide_Botany2**: A screen showing more Botany (TM) [missing?]
+* **NF_SCRN_Wide_Aquaculture1**: A screen showing Fishing (TM) [missing?]
+* **NF_SCRN_Wide_Aquaculture2**: A screen showing some more Fishing (TM). It's the OOT fishing game.
+* **NF_SCRN_Wide_Astronomy1**: Pretty astrophotography (credit GregoxMun)
+* **NF_SCRN_Wide_Astronomy2**: Pretty astrophotography (credit GregoxMun)
+* **NF_SCRN_Wide_Astronomy3**: Pretty astrophotography (credit GregoxMun)
+* **NF_SCRN_Wide_Astronomy4**: Astrophotography analysis (credit GregoxMun)
+* **NF_SCRN_Wide_Astronomy5**: Telescope control
+* **NF_SCRN_Wide_ItsAUnixSystem**: I know this system
+* **NF_SCRN_Wide_WhiteRbtObj**: Ah ah ah. 
+* **NF_SCRN_Wide_UnityPart**: A somewhat meta screen
+* **NF_SCRN_Wide_UnityProp**: A very meta screen
+* **NF_SCRN_Wide_GenericScience1**: Sciency waveforms and plots
+* **NF_SCRN_Wide_GenericScience2**: Sciency stuff
+* **NF_SCRN_Wide_GenericScience3**: Generic 'Science'
+* **NF_SCRN_Wide_GameDescent**: The best game every made
+* **NF_SCRN_Wide_GameKSP**: Oh you.
+
+### Cameras
+* **NF_CAMERA_DSLR**: A KIKON DSLR
+* **NF_CAMERA_DSLR_L**: A KIKON with a  long lens
+* **NF_CAMERA_DSLR_XL**: A KIKON with a really long lens
+* **NF_CAMERA_Disposable**: the Snap-O-Tron 35!
+
+### Science
+* **NF_SCI_Microscope**:
+* **NF_SCI_CentrifugeClosed**:
+* **NF_SCI_Centrifuge**:
+* **NF_SCI_Scale**:
+* **NF_SCI_LaserDriver**:
+* **NF_SCI_LaserBeam**:
+* **NF_SCI_LaserEmitter**:
+* **NF_SCI_ReagentJarBlue**:
+* **NF_SCI_ReagentJarRed**:
+* **NF_SCI_ReagentJarBlack**:
+* **NF_SCI_Beaker**:
+* **NF_SCI_Flask**:
+* **NF_SCI_TestTube**:
+* **NF_SCI_TestTube_Label1**:
+* **NF_SCI_TestTube_Label2**:
+* **NF_SCI_TestTubeRack**:
+* **NF_SCI_TestTubeRack_Empty**:
+* **NF_SCI_TestTubeRackShort**:
+* **NF_SCI_TestTubeRackShort_Empty**:
+* **NF_SCI_BunsenBurner**:
 
 ### Computers
 * **NF_COMP_Laptop**: A space-certified laptop
