@@ -1,7 +1,12 @@
+0.7.0
+-----
+- New Science prop set, includes a number of science-type props like microscopes, etc
+- New Camera prop set, includes handheld cameras for kerbals
+- New screens for Screens prop set
+
 0.6.5
 -----
 - KSP 1.12.x
-
 0.6.4
 -----
 - KSP 1.11.x
