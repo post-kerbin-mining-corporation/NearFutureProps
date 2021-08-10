@@ -1,3 +1,7 @@
+0.7.1
+-----
+- Fixed wrong layer for some props
+
 0.7.0
 -----
 - New Science prop set, includes a number of science-type props like microscopes, etc
